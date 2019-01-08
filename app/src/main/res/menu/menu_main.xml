@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_backward"
+        android:icon="@drawable/ic_action_backward"
+        android:orderInCategory="1"
+        android:title="Previous week"
+        app:showAsAction="always" />
+    <item
+    android:id="@+id/action_delete"
+    android:orderInCategory="4"
+    android:title="Delete All"
+    app:showAsAction="never|withText"
+    android:icon="@drawable/ic_action_delete"/>
+    <item
+        android:id="@+id/action_forward"
+        android:title="Next week"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_action_forward"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_action_now"
+        app:showAsAction="always"
+        android:title="Return current week" />
+
+</menu>

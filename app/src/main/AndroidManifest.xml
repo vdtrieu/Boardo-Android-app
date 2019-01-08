@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bku.tuanvu.boardo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/coollogo_com"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:label="Boardo"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddSubjectActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".SubjectInfoActivity"
+                    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+                    android:label="Subject Detail">
+        </activity>
+        <receiver android:name=".Noti.AalarmReceiver">
+        </receiver>
+        <receiver android:name=".Noti.AlarmReceiver">
+        </receiver>
+        <service android:name=".Set_Alarm.Music"
+            android:enabled="true">
+        </service>
+        <activity android:name=".Set_Alarm.SetAlert"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".Set_Alarm.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="contentSize">20sp</dimen>
+    <dimen name="padding">7dp</dimen>
+    <dimen name="day">75dp</dimen>
+    <dimen name="periodWidth">25dp</dimen>
+    <dimen name="periodHeight">40dp</dimen>
+</resources>
